@@ -22,8 +22,8 @@ public class Patient {
     
     @Override
     public String toString () {
-        return "name: " + name + " [ID: " + id "]\n" +
-               "age: " + age + "\n" +
+        return "Name: " + name + " [ID: " + id "]\n" +
+               "Age: " + age + "\n" +
                "Phone Number: " + phoneNumber + "\n"
-               "address: " + address;
+               "Address: " + address;
     }
