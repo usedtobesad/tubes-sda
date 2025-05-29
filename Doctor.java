@@ -5,25 +5,28 @@ public class Doctor {
     String id;
     String name;
     String speciality;
+    String password;
     LocalDateTime LoginTime;
-}
 
-    public Doctor (String id, String name, String speciality, LocalDateTime LoginTime) {
-        this.id = "D" + id;
+    public Doctor(String id, String name, String speciality, String password, LocalDateTime LoginTime) {
+        this.id = id;
         this.name = name;
         this.speciality = speciality;
+        this.password = password;
         this.LoginTime = LoginTime;
     }
 
-    public String getId () {return id;}
-    public String getName () {return name;}
-    public String getSpeciality () {return speciality;}
-    public String getLoginTime () {return LoginTime;}
+    public String getId() { return id; }
+    public String getName() { return name; }
+    public String getSpeciality() { return speciality; }
+    public String getPassword() { return password; }
+    public LocalDateTime getLoginTime() { return LoginTime; }
 
     @Override
-    public String toString () {
+    public String toString() {
         DateTimeFormatter time = DateTimeFormatter.ofPattern("dd-MM-yyyy (HH:mm:ss)");
         return "Name: " + name + "[" + id + "]\n" + 
-                "Speciality: " + speciality + "\n"
-                "Login Time: " + loginTime.format(time);
+               "Speciality: " + speciality + "\n" +
+               "Login Time: " + LoginTime.format(time);
     }
+}
