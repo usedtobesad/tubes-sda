@@ -1,4 +1,4 @@
-package tubes;
+
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -30,7 +30,7 @@ public class Stack {
     Node top;
     DoctorNode registeredDoctorsHead;
 
-    private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy (HH:mm:ss)");
+    private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
 
     public Stack() {
         this.top = null;
@@ -103,11 +103,12 @@ public class Stack {
     }
 
     public void save(String filename) {
+        DateTimeFormatter time = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
             DoctorNode regCurrent = registeredDoctorsHead;
             while (regCurrent != null) {
                 Doctor doctor = regCurrent.doctor;
-                String line = String.format("%s|%s|%s|%s|%s|registered", doctor.getId(), "Dr. " + doctor.getName(), doctor.getSpeciality(), doctor.getPassword(), doctor.getLoginTime());
+                String line = String.format("%s|%s|%s|%s|%s|registered", doctor.getId(), "Dr. " + doctor.getName(), doctor.getSpeciality(), doctor.getPassword(), doctor.getLoginTime().format(time));
                 writer.write(line);
                 writer.newLine();
                 regCurrent = regCurrent.next;
@@ -115,7 +116,7 @@ public class Stack {
             Node current = top;
             while (current != null) {
                 Doctor doctor = current.doctor;
-                String line = String.format("%s|%s|%s|%s|%s|loggedIn", doctor.getId(), "Dr. " + doctor.getName(), doctor.getSpeciality(), doctor.getPassword(), doctor.getLoginTime());
+                String line = String.format("%s|%s|%s|%s|%s|loggedIn", doctor.getId(), "Dr. " + doctor.getName(), doctor.getSpeciality(), doctor.getPassword(), doctor.getLoginTime().format(time));
                 writer.write(line);
                 writer.newLine();
                 current = current.next;
