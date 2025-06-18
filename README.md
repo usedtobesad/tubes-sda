@@ -689,6 +689,10 @@ Setelah menekan memilih opsi ini, anda akan diperlihatkan menu-menu berikut:
 
   Menyelesaikan program.
   
+  ![image](https://github.com/user-attachments/assets/59f74bac-d166-4a92-9ac9-c61b164a0baa)
+
 **5. Exit**;
 
   Menyelesaikan program.
+  
+  ![image](https://github.com/user-attachments/assets/23175f8f-c399-4a3e-be02-eba9f1691169)
