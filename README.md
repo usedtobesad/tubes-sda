@@ -15,11 +15,8 @@ Anggota Kelompok:
 ------
 
 ## Struktur Direktori Program
-- `Main.java`
-    - `Doctor.java`
-    - `Admin.java`
-    - `Patient.java`      
-------
+
+![image](https://github.com/user-attachments/assets/6eafbf42-5390-475d-98b6-e3b36b1726de)
 
 ## Cara Penggunaan Program
 
@@ -71,6 +68,17 @@ Tetapi jika anda ingin login sebagai pasien anda hanya harus mengisi id dan nama
 Setelah berhasil login sebagai dokter, program akan memastikan anda sudah loggin:
 
 ![image](https://github.com/user-attachments/assets/b5c70da2-af2c-4e54-b440-cb6260e7b8a1)
+
+* *lalu ketika program dijalankan, jika ada dokter yang belum logoff dihari sebelumnya maka akan dilogoff dari program*
+
+login pada tanggal 17-06-2025
+
+![image](https://github.com/user-attachments/assets/1f193cf6-38c0-4894-97e8-defbc90fb39c)
+
+setelah memulai program pada tanggal 18-06-2025
+
+![image](https://github.com/user-attachments/assets/280c8029-1740-41e0-bb8f-6e197b730fd1)
+
 
 Setelah menekan tombol enter, anda akan diperlihatkan menu-menu berikut:
 
