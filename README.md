@@ -17,17 +17,58 @@ Anggota Kelompok:
 ## Struktur Direktori Program
 ```
 - Main.java
-        - Admin
+        - admin
+                -Admin.java
+                -AdminList.java
+                -AdminRecord.java
         - apointment
+                -Appointment.java
+                -AppointmentManagement.java
+                -Queue.java
         - data
+                -admin.txt
+                -Appointment_(Speciality).txt
+                -doctor.txt
+                -loginadmin.txt
+                -logindoctor.txt
+                -logoutadmin.txt
+                -MedicalRecordadmin.txt
+                -roomNumber.txt
+                -schedule.txt
+                -patient.json
         - display
+                -end.txt
+                -loginregister.txt
+                -menuAdmin.txt
+                -menuDoctor.txt
+                -menuPatient.txt
+                -title.txt
+                -user.txt
         - doctor
+                -Doctor.java
+                -DoctorLinkeList.java
+                -DoctorManagement.java
+                -Stack.java
         - lib
+                -gsom-1.10.1.jar
         - medicalrecord
+                -MedicalRecord.java
+                -MedicalRecordLisy.java
+                -MedicalRecordManagement.java
         - patient
+                -BST.java
+                -LinkedList.java
+                -Patient.java
+                -PatientManagement.java
         - schedule
+                -Schedule.java
+                -ScheduleList.java
+                -ScheduleManagement.java
         - utility
-        - tubes.code-workspace
+                -ConsoleUtil.java
+                -Constants.java
+                -FileHandler.java
+- tubes.code-workspace
   ```
    
 ![image](https://github.com/user-attachments/assets/6eafbf42-5390-475d-98b6-e3b36b1726de)
