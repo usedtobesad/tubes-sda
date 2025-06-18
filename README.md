@@ -69,16 +69,15 @@ Setelah berhasil login sebagai dokter, program akan memastikan anda sudah loggin
 
 ![image](https://github.com/user-attachments/assets/b5c70da2-af2c-4e54-b440-cb6260e7b8a1)
 
-* *lalu ketika program dijalankan, jika ada dokter yang belum logoff dihari sebelumnya maka akan dilogoff dari program*
+* *lalu ketika program dijalankan, jika ada dokter yang belum logout dihari sebelumnya maka akan dilogout oleh program*
 
-login pada tanggal 17-06-2025
+Login pada tanggal 17-06-2025.
 
 ![image](https://github.com/user-attachments/assets/1f193cf6-38c0-4894-97e8-defbc90fb39c)
 
-setelah memulai program pada tanggal 18-06-2025
+Setelah memulai program pada tanggal 18-06-2025.
 
 ![image](https://github.com/user-attachments/assets/280c8029-1740-41e0-bb8f-6e197b730fd1)
-
 
 Setelah menekan tombol enter, anda akan diperlihatkan menu-menu berikut:
 
@@ -177,6 +176,16 @@ Setelah menekan tombol enter, anda akan diperlihatkan menu-menu berikut:
       Setelah memilih menu ini anda akan diminta memasukkan Speciality, id pasien, id dokter, complaint, tanggal, dan waktu temu.
       
       ![image](https://github.com/user-attachments/assets/5d5e21f0-2017-45f9-a6a8-100b383f5210)
+
+      * *Jika membuat janji temu Speciality tidak ada di program, maka program akan membuat file txt appointment spesialis baru yang sesuai sesuai*
+
+      Sebelum membuat Speciality baru.
+      
+      ![image](https://github.com/user-attachments/assets/d462fa96-eed8-4c77-b431-8cbc5d0e1342)
+
+      Sesudah membuat Speciality baru.
+
+      ![image](https://github.com/user-attachments/assets/4a10f058-8f01-4046-978f-f7e7b263075f)
 
       Jika tidak ada dokter yang bisa melakukan janji temu program akan membuat peringatan.
 
