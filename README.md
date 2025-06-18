@@ -760,3 +760,15 @@ Setelah menekan memilih opsi ini, anda akan diperlihatkan menu-menu berikut:
   Menyelesaikan program.
   
   ![image](https://github.com/user-attachments/assets/23175f8f-c399-4a3e-be02-eba9f1691169)
+
+* *Kontribusi*
+  
+Nabil : Struktur data, revisi program
+
+Saskya : struktur data, developing program, rivisi program 
+
+Kristian : rivisi program, uji fitur program 
+
+Jesayas : uji fitur program, pembuatan read me
+
+Rafi : uji fitur program, pembuatan video demonstrasi
