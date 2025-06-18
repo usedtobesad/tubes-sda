@@ -15,7 +15,21 @@ Anggota Kelompok:
 ------
 
 ## Struktur Direktori Program
-
+```
+- Main.java
+        - Admin
+        - apointment
+        - data
+        - display
+        - doctor
+        - lib
+        - medicalrecord
+        - patient
+        - schedule
+        - utility
+        - tubes.code-workspace
+  ```
+   
 ![image](https://github.com/user-attachments/assets/6eafbf42-5390-475d-98b6-e3b36b1726de)
 
 ## Cara Penggunaan Program
